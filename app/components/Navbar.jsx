@@ -40,18 +40,18 @@ function Navbar() {
             <div className="flex flex-shrink-0 items-center">
               <div className="mx-4">
                 <div className="sm:flex sm:flex-row hidden items-center">
-                <FontAwesomeIcon
-                      icon={faEnvelope}
-                      className="text-xs text-[#929292] mr-2"
-                    ></FontAwesomeIcon>
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="text-xs text-[#929292] mr-2"
+                  ></FontAwesomeIcon>
                   <h3 className="text-sm font-medium text-[#0bbfae] flex">
                     <span>prasadaute5171@gmail.com</span>
                   </h3>
                   <h3 className="mx-2">|</h3>
                   <FontAwesomeIcon
-                      icon={faPhone}
-                      className="text-xs text-[#929292] mr-2"
-                    ></FontAwesomeIcon>
+                    icon={faPhone}
+                    className="text-xs text-[#929292] mr-2"
+                  ></FontAwesomeIcon>
                   <h3 className="text-sm font-medium text-[#0bbfae] flex">
                     <span>+91 7057041294</span>
                   </h3>
@@ -74,41 +74,37 @@ function Navbar() {
               {/* Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" */}
               <Link
                 href="/"
-                className={`inline-flex items-center border-b-2 ${
-                  pathname == "/"
-                    ? "border-[#f57e18] text-[#0bbfae] font-semibold"
-                    : "border-transparent"
-                } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
+                className={`inline-flex items-center border-b-2 ${pathname == "/"
+                  ? "border-[#f57e18] text-[#0bbfae] font-semibold"
+                  : "border-transparent"
+                  } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
               >
                 Home
               </Link>
               <Link
                 href="about"
-                className={`inline-flex items-center border-b-2 ${
-                  pathname == "/about"
-                    ? "border-[#f57e18] text-[#0bbfae] font-semibold"
-                    : "border-transparent"
-                } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
+                className={`inline-flex items-center border-b-2 ${pathname == "/about"
+                  ? "border-[#f57e18] text-[#0bbfae] font-semibold"
+                  : "border-transparent"
+                  } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
               >
                 About
               </Link>
               <Link
                 href="resume"
-                className={`inline-flex items-center border-b-2 ${
-                  pathname == "/resume"
-                    ? "border-[#f57e18] text-[#0bbfae] font-semibold"
-                    : "border-transparent"
-                } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
+                className={`inline-flex items-center border-b-2 ${pathname == "/resume"
+                  ? "border-[#f57e18] text-[#0bbfae] font-semibold"
+                  : "border-transparent"
+                  } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
               >
                 Resume
               </Link>
               <Link
                 href="services"
-                className={`inline-flex items-center border-b-2 ${
-                  pathname == "/services"
-                    ? "border-[#f57e18] text-[#0bbfae] font-semibold"
-                    : "border-transparent"
-                } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
+                className={`inline-flex items-center border-b-2 ${pathname == "/services"
+                  ? "border-[#f57e18] text-[#0bbfae] font-semibold"
+                  : "border-transparent"
+                  } px-1 pt-1 text-sm font-medium hover:border-gray-300`}
               >
                 Services
               </Link>
@@ -139,58 +135,58 @@ function Navbar() {
 
       <DisclosurePanel className="sm:hidden">
         <div className="space-y-1 pb-4 pt-2">
-        <div className="m-4">
-                <div className="items-center">
-                <div className="flex justify-center items-center">
+          <div className="m-4">
+            <div className="items-center">
+              <div className="flex justify-center items-center">
                 <FontAwesomeIcon
-                      icon={faEnvelope}
-                      className="text-xs text-[#929292] mr-2"
-                    ></FontAwesomeIcon>
-                  <h3 className="text-sm font-medium text-[#0bbfae] flex">
-                    <span>prasadaute5171@gmail.com</span>
-                  </h3>
-                </div>
-                <hr className="h-px my-1 bg-gray-200 border-0 dark:bg-gray-700"/>
-                  <div className="flex justify-center items-center">
-                  <FontAwesomeIcon
-                      icon={faPhone}
-                      className="text-xs text-[#929292] mr-2"
-                    ></FontAwesomeIcon>
-                  <h3 className="text-sm font-medium text-[#0bbfae] flex">
-                    <span>+91 7057041294</span>
-                  </h3>
-                  </div>
-                </div>
-                {/* <p className="text-xs text-gray-500">
+                  icon={faEnvelope}
+                  className="text-xs text-[#929292] mr-2"
+                ></FontAwesomeIcon>
+                <h3 className="text-sm font-medium text-[#0bbfae] flex">
+                  <span>prasadaute5171@gmail.com</span>
+                </h3>
+              </div>
+              <hr className="h-px my-1 bg-gray-200 border-0 dark:bg-gray-700" />
+              <div className="flex justify-center items-center">
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className="text-xs text-[#929292] mr-2"
+                ></FontAwesomeIcon>
+                <h3 className="text-sm font-medium text-[#0bbfae] flex">
+                  <span>+91 7057041294</span>
+                </h3>
+              </div>
+            </div>
+            {/* <p className="text-xs text-gray-500">
                   <a href="#">Software Developer</a>
               </p> */}
-              </div>
+          </div>
           {/* Current: "bg-indigo-50 border-indigo-500 text-indigo-700", Default: "border-transparent text-gray-500 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-700" */}
           <DisclosureButton
             as="a"
             href="/"
-            className="block border-l-4 border-indigo-500 bg-indigo-50 py-2 pl-3 pr-4 text-base font-medium text-indigo-700"
+            className={`block border-l-4 ${pathname == "/" ? 'border-indigo-500 bg-indigo-50' : 'border-transparent'} py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700`}
           >
             Home
           </DisclosureButton>
           <DisclosureButton
             as="a"
             href="/about"
-            className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+            className={`block border-l-4 ${pathname == "/about" ? 'border-indigo-500 bg-indigo-50' : 'border-transparent'} py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700`}
           >
             About us
           </DisclosureButton>
           <DisclosureButton
             as="a"
             href="/resume"
-            className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+            className={`block border-l-4 ${pathname == "/resume" ? 'border-indigo-500 bg-indigo-50' : 'border-transparent'} py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700`}
           >
             Resume
           </DisclosureButton>
           <DisclosureButton
             as="a"
             href="/services"
-            className="block border-l-4 border-transparent py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700"
+            className={`block border-l-4 ${pathname == "/services" ? 'border-indigo-500 bg-indigo-50' : 'border-transparent'} py-2 pl-3 pr-4 text-base font-medium text-gray-500 hover:border-gray-300 hover:bg-gray-50 hover:text-gray-700`}
           >
             Services
           </DisclosureButton>
