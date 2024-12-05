@@ -43,12 +43,12 @@ function page() {
     // </div>
     <div className="bg-white m-10 p-10">
       <div className="flex justify-end">
-      <a
-        download="Resume(Prasad_Aute)-FullStack.pdf"
-        href={'/resume'} className="hover:border bg-[#f57e18] border-0 mx-1 hover:border-[#f57e18] hover:bg-white hover:text-[#f57e18] text-white font-bold py-2 px-4 rounded-full">
-        <FontAwesomeIcon icon={faDownload} className=""
-      ></FontAwesomeIcon> Download
-      </a>
+        <a
+          download="Resume-prasad-aute.pdf"
+          href={'/resume'} className="hover:border bg-[#f57e18] border-0 mx-1 hover:border-[#f57e18] hover:bg-white hover:text-[#f57e18] text-white font-bold py-2 px-4 rounded-full">
+          <FontAwesomeIcon icon={faDownload} className=""
+          ></FontAwesomeIcon> Download
+        </a>
       </div>
       <div>
         <div className="sm:hidden my-5">
@@ -63,7 +63,7 @@ function page() {
             value={tabs.findIndex((tab) => tab.current == true)}
             className="block w-full rounded-md border-gray-300 focus:border-indigo-500 focus:ring-indigo-500"
           >
-            {tabs.map((tab,index) => (
+            {tabs.map((tab, index) => (
               <option key={tab.name} value={index}>{tab.name}</option>
             ))}
           </select>
